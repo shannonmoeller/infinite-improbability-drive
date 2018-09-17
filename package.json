@@ -1,6 +1,6 @@
 {
   "name": "infinite-improbability-drive",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Infinite Improbability Drive",
   "scripts": {
     "test": "./bin/iid && ./bin/iid"
@@ -10,7 +10,7 @@
   "license": "ISC",
   "main": "index.js",
   "bin": {
-      "infinite-improbability-drive": "./bin/iid",
-      "iid": "./bin/iid"
+    "infinite-improbability-drive": "./bin/iid",
+    "iid": "./bin/iid"
   }
 }
