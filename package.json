@@ -10,7 +10,7 @@
   "license": "ISC",
   "main": "index.js",
   "bin": {
-    "infinite-improbability-drive": "./bin/iid",
-    "iid": "./bin/iid"
+    "infinite-improbability-drive": "./cli.js",
+    "iid": "./cli.js"
   }
 }
