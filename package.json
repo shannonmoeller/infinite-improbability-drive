@@ -8,6 +8,5 @@
   "author": "Shannon Moeller <me@shannonmoeller.com> (https://shannonmoeller.com)",
   "repository": "shannonmoeller/infinite-improbability-drive",
   "license": "ISC",
-  "main": "index.js",
-  "bin": "bin/iid"
+  "main": "index.js"
 }
