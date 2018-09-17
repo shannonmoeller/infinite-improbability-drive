@@ -8,5 +8,9 @@
   "author": "Shannon Moeller <me@shannonmoeller.com> (https://shannonmoeller.com)",
   "repository": "shannonmoeller/infinite-improbability-drive",
   "license": "ISC",
-  "main": "index.js"
+  "main": "index.js",
+  "bin": {
+      "infinite-improbability-drive": "./bin/iid",
+      "iid": "./bin/iid"
+  }
 }
