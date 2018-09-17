@@ -1,6 +1,6 @@
 {
   "name": "infinite-improbability-drive",
-  "version": "1.0.42",
+  "version": "42.0.0",
   "description": "Infinite Improbability Drive",
   "scripts": {
     "test": "./cli.js"
