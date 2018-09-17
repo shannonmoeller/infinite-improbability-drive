@@ -1,6 +1,6 @@
 {
   "name": "infinite-improbability-drive",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Infinite Improbability Drive",
   "scripts": {
     "test": "./bin/iid && ./bin/iid"
