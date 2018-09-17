@@ -1,0 +1,13 @@
+{
+  "name": "infinite-improbability-drive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "bin/iid",
+  "scripts": {
+    "test": "./bin/iid && ./bin/iid"
+  },
+  "keywords": [],
+  "author": "Shannon Moeller <me@shannonmoeller.com> (https://shannonmoeller.com)",
+  "license": "ISC"
+}
