@@ -1,6 +1,6 @@
 {
   "name": "infinite-improbability-drive",
-  "version": "42.6.7",
+  "version": "42.7.6",
   "description": "Infinite Improbability Drive",
   "scripts": {
     "test": "npm run test-nope && npm run test-yep",
