@@ -3,7 +3,9 @@
   "version": "42.6.7",
   "description": "Infinite Improbability Drive",
   "scripts": {
-    "test": "./cli.js 0.023809523809523808 '☕'"
+    "test": "npm run test-nope && npm run test-yep",
+    "test-nope": "./cli.js -i 42 -b '🚀' || true",
+    "test-yep": "./cli.js -i 0.023809523809523808 -b '☕'"
   },
   "author": "Shannon Moeller <me@shannonmoeller.com> (https://shannonmoeller.com)",
   "repository": "shannonmoeller/infinite-improbability-drive",

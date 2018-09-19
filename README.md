@@ -23,18 +23,22 @@ Options:
 ## Examples
 
 ```command
-$ iid 0.023809523809523808 ☕
+$ iid -i 42 -b 🚀
+$ iid -i 0.023809523809523808 -b ☕
 ```
 
 ## API
 
-### `iid(improbability, brownianMotionProducer)`
+### `iid(options)`
 
-- `improbability` `{Number}`
-- `brownianMotionProducer` `{String}`
+- `options` `{Object}`
+  - `improbability` `{Number}`
+  - `brownianMotionProducer` `{String}`
 
 ```js
 const drive = require('infinite-improbability-drive');
-
-drive(0.023809523809523808, '☕');
+const result = drive({
+    improbability: 0.023809523809523808,
+    brownianMotionProducer: '☕',
+});
 ```
